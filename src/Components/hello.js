@@ -16,7 +16,7 @@ function Hello() {
         </Col>
         <Col>
           <Parallax speed={-10}>
-            <img src="/img/welcome.png" alt="welcome" className="img-fluid" />
+            <img src="img/welcome.png" alt="welcome" className="img-fluid" />
           </Parallax>
         </Col>
       </Row>
