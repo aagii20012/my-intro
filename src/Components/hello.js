@@ -9,8 +9,13 @@ function Hello() {
         <Col className="hello-desc">
           <div className="justify-content-center">
             <Parallax speed={10}>
-              <h2 style={bigWord}>Сайн байна уу. Танилцахад таатай байна</h2>
-              <p style={smallWord}> Намайг Алтангэрэл гэдэг. ШУТИС-МХТС-ийн програм хангамжийн оюутан</p>
+              <h2 style={bigWord}>
+                Сайн байна уу.<br></br> Танилцахад таатай байна
+              </h2>
+              <p style={smallWord}>
+                {" "}
+                Намайг <b>Алтангэрэл</b> гэдэг. ШУТИС-МХТС-ийн програм хангамжийн 3-р курсийн оюутан
+              </p>
             </Parallax>
           </div>
         </Col>
