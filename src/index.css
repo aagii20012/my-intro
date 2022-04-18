@@ -58,3 +58,11 @@ code {
     z-index: 1;
   }
 }
+
+.text-voilent {
+  color: SlateBlue;
+}
+
+.img-opac {
+  opacity: 0.5;
+}

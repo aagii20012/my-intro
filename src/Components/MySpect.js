@@ -6,7 +6,7 @@ function MySpect() {
   const [key, setKey] = useState("MyAdvan");
   return (
     <div style={contStyle}>
-      <Tabs activeKey={key} onSelect={(k) => setKey(k)} id="uncontrolled-tab-example" className="mb-3">
+      <Tabs activeKey={key} onSelect={(k) => setKey(k)} id="uncontrolled-tab-example" className="mb-3 nav-fill">
         <Tab eventKey="MyAdvan" title="Миний давуу">
           <TabContent value={key} />
         </Tab>
