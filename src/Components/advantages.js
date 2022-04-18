@@ -11,8 +11,8 @@ const createData = (title, desc, img) => {
 
 const data = [
   createData(
-    "I can learn fast",
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "Би хурдацтай сурдаг",
+
     "learn.jpg"
   ),
   createData("I can keep trying", "Description", "keepTry.png"),
