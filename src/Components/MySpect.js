@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import TabContent from "./tabContent";
 import { Tabs, Tab } from "react-bootstrap";
-import { Parallax } from "react-scroll-parallax";
 
 function MySpect() {
   const [key, setKey] = useState("MyAdvan");
@@ -23,10 +22,6 @@ const contStyle = {
   position: "relative",
   height: "70vh",
   padding: "20px",
-};
-
-const sliderStyle = {
-  height: "100%",
 };
 
 export default MySpect;

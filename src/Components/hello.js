@@ -6,7 +6,7 @@ function Hello() {
   return (
     <Container style={conStyle} fluid="md">
       <Row className="align-items-center h-75">
-        <Col className="px-2">
+        <Col className="hello-desc">
           <div className="justify-content-center">
             <Parallax speed={10}>
               <h2 style={bigWord}>Hello welcome</h2>
@@ -14,8 +14,8 @@ function Hello() {
             </Parallax>
           </div>
         </Col>
-        <Col>
-          <Parallax speed={-10}>
+        <Col sm={0} className="hello-img">
+          <Parallax speed={-20}>
             <img src="img/welcome.png" alt="welcome" className="img-fluid" />
           </Parallax>
         </Col>

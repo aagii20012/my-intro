@@ -47,3 +47,14 @@ code {
   height: 100px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 600px) {
+  .hello-img {
+    position: absolute;
+  }
+
+  .hello-desc {
+    position: absolute;
+    z-index: 1;
+  }
+}

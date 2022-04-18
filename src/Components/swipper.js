@@ -20,6 +20,17 @@ function swipper({ datas }) {
       pagination={{
         clickable: true,
       }}
+      breakpoints={{
+        0: {
+          slidesPerView: 1,
+        },
+        648: {
+          slidesPerView: 2,
+        },
+        900: {
+          slidesPerView: 3,
+        },
+      }}
       navigation={true}
       slidesPerView={3}>
       {datas
