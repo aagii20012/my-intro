@@ -10,23 +10,29 @@ const createData = (title, desc, img) => {
   };
 };
 
-const randomTxt =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
-
 const datas = [
-  createData("I like play video games", randomTxt, "games.jpg"),
-  createData("I like watch anime", randomTxt, "anime.webp"),
-  createData("I like read manga", randomTxt, "manga.jpg"),
-  createData("I like watch movie", randomTxt, "movie.jpg"),
+  createData(
+    "Надад video тоглоом тоглох нь таалагддаг",
+    "Би strategy эсвэл rpg video тоглоом дуртай. Эдгээрт сайн тоглдогдоо бус үүнээс их хэмжээний ",
+
+    "games.jpg"
+  ),
+  createData("Би anime үзэх дуртай", "", "anime.webp"),
+  createData("Би manga унших дуртай ", "", "manga.jpg"),
+  createData(
+    "Надад кино үзэх нь таалагддаг",
+    "2 жилээс өмнөөс надад кино үзэх нь таалагдаж эхэлсэн. Энэ нь анх recap үзэж эхлэж байсан. Recap нь магадгүй богино ч сэтгэгдэл төрүүлэхүйц байдаг. Миний хамгийн их дуртай байгаа кино нь Good doctor,Doctor house,amphibia,owl house-ууд. Надад киноноос хамгийн таалагддаг зүйлс нь түүх, дүрийн гаргаж буй сэтгэл хөдлөлүүд, үүнээс авж болох сургамжууд байдаг",
+    "movie.jpg"
+  ),
 ];
 
 function mySpecialty() {
   return (
     <Container style={contStyle}>
-      <h1 className="display-4 mb-5">My hobby</h1>
+      <h1 className="display-4 mb-5">Миний хобби</h1>
       <Row>
         {datas.map((data, index) => (
-          <Col key={"hoobyCard" + index} md={6} lg={3}>
+          <Col key={"hoobyCard" + index} md={6} lg={3} className="mt-3">
             <HobbyCard data={data} />
           </Col>
         ))}

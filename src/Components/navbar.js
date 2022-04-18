@@ -8,7 +8,7 @@ const createData = (title, link) => {
   };
 };
 
-const pages = [createData("Intro", "Hello"), createData("My (Ad/Disad)vantages", "MySpec"), createData("My Hobby", "MyHobies")];
+const pages = [createData("Нүүр хуудас", "Hello"), createData("Миний давуу ба сул тал", "MySpec"), createData("Миний хобби", "MyHobies")];
 
 function topNavbar() {
   return (

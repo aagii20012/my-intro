@@ -9,14 +9,14 @@ function Hello() {
         <Col className="hello-desc">
           <div className="justify-content-center">
             <Parallax speed={10}>
-              <h2 style={bigWord}>Hello welcome</h2>
-              <p style={smallWord}> My name is Altangerl.</p>
+              <h2 style={bigWord}>Сайн байна уу. Танилцахад таатай байна</h2>
+              <p style={smallWord}> Намайг Алтангэрэл гэдэг. ШУТИС-МХТС-ийн програм хангамжийн оюутан</p>
             </Parallax>
           </div>
         </Col>
         <Col sm={0} className="hello-img">
           <Parallax speed={-20}>
-            <img src="img/welcome.png" alt="welcome" className="img-fluid" />
+            <img src={process.env.PUBLIC_URL + "/img/welcome.png"} alt="welcome" className="img-fluid" />
           </Parallax>
         </Col>
       </Row>
@@ -29,7 +29,7 @@ const conStyle = {
   height: "100vh",
 };
 const bigWord = {
-  fontSize: "60px",
+  fontSize: "40px",
   fontWeight: "900",
   lineHeight: "1.3",
 };

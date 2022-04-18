@@ -6,15 +6,15 @@ function tabContent({ value }) {
   if (value == "MyAdvan") {
     return (
       <Suspense fallback={<div>Loading... </div>}>
-        <h1>My advantages</h1>
+        <h1>Миний давуу </h1>
         <Advantage />
       </Suspense>
     );
   }
-  if (value == "MyDisAdvan") {
+  if (value === "MyDisAdvan") {
     return (
       <Suspense fallback={<div>Loading... </div>}>
-        <h1>My disadvantages</h1>
+        <h1>Миний сул тал</h1>
         <Disadvantage />
       </Suspense>
     );

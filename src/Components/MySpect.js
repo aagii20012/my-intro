@@ -7,10 +7,10 @@ function MySpect() {
   return (
     <div style={contStyle}>
       <Tabs activeKey={key} onSelect={(k) => setKey(k)} id="uncontrolled-tab-example" className="mb-3">
-        <Tab eventKey="MyAdvan" title="My advantages">
+        <Tab eventKey="MyAdvan" title="Миний давуу">
           <TabContent value={key} />
         </Tab>
-        <Tab eventKey="MyDisAdvan" title="My disadvantages">
+        <Tab eventKey="MyDisAdvan" title="Миний сул тал">
           <TabContent value={key} />
         </Tab>
       </Tabs>

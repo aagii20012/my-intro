@@ -2,7 +2,7 @@ import React from "react";
 import { MDBRipple, MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardImage } from "mdb-react-ui-kit";
 
 function hobbyCard({ data }) {
-  let image = "img/" + data.img;
+  let image = process.env.PUBLIC_URL + "/img/" + data.img;
   return (
     <MDBCard className="position-relative p-2">
       <MDBRipple rippleTag="div" className="bg-image hover-overlay hover-zoom hover-shadow">

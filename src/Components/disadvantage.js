@@ -13,10 +13,26 @@ const createData = (title, desc, img) => {
 };
 
 const data = [
-  createData("I'm introvert", randomTxt, "introvert.jpg"),
-  createData("I don't like read long", randomTxt, "bookRead.png"),
-  createData("I have high focus", randomTxt, "focus.jpg"),
-  createData("I don't know many story and convertations start", randomTxt, "talk.png"),
+  createData(
+    "Би бол дотогшоо хүн",
+    "Би өмнө нь хэдхэн хүнээс цааш харилцдаггүй байсан тул олон хүнтэй ярилцахдхх дургүй мөн чаддаггүй байсан. Иймээс миний харилцах чадвар бусадтай харьцуулахад муухан",
+    "introvert.jpg"
+  ),
+  createData(
+    "Би удаан цагаар юмс уншиж чаддаггүй",
+    "Удаан цагаар юмс уншихад анхаарал уншсан юм толгойд орохгүй эсвэл хараа тогтож өгдөггүй тул 1-2 цаг уншаад 30 минут завсарлага авж байдаг",
+    "bookRead.png"
+  ),
+  createData(
+    "I have high focus",
+    "Анхаарлаа төвлөрөөд хийх ёстой зүйлсээ хийхэд 4-5 цаг сууж хийж чадагч үүнээс болоод зарим ойройдоо хийх зүйлс алдагдах явдал байдаг",
+    "focus.jpg"
+  ),
+  createData(
+    "Би зүйлсийг тодорхой нэршлээр бус утгаар нь цээжилдэг",
+    "Яагаад энэ сул тал вэ гэхээр ерөнхий зүйлд асуудал болохгүй ч нарийн зүйлсэд дандаа ухаж харах болдог",
+    "talk.png"
+  ),
 ];
 
 function disadvantage() {
