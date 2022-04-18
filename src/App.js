@@ -14,7 +14,7 @@ function App() {
         <div id="Hello">
           <Hello />
         </div>
-        <div id="MySpec">
+        <div id="MySpec" style={{ backgroundColor: "#F0F1F0" }}>
           <MySpect />
         </div>
         <div id="MyHobies">
