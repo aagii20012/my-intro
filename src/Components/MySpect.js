@@ -20,7 +20,7 @@ function MySpect() {
 
 const contStyle = {
   position: "relative",
-  height: "70vh",
+  height: "100vh",
   padding: "20px",
 };
 
