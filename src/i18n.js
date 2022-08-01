@@ -10,7 +10,7 @@ i18next
   .init(
     {
       backend: {
-        loadPath: "/locales/{{lng}}/translation.json",
+        loadPath: "my-intro/locales/{{lng}}/translation.json",
       },
       supportedLngs: ["en", "mn"],
       fallbackLng: "en",
