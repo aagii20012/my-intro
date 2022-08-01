@@ -1,20 +1,15 @@
 import * as React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
-const createData = (title, link) => {
-  return {
-    title: title,
-    link: link,
-  };
-};
-
-const pages = [createData("Нүүр хуудас", "Hello"), createData("Миний давуу ба сул тал", "MySpec"), createData("Миний хобби", "MyHobies")];
-
-function topNavbar() {
+function TopNavbar() {
+  const { t } = useTranslation();
+  const data = t("navbar");
+  const pages = data.link;
   return (
     <Navbar bg="light" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="#intro">Миний танилцуулга</Navbar.Brand>
+        <Navbar.Brand href="#intro">{data.title}</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -30,4 +25,4 @@ function topNavbar() {
   );
 }
 
-export default topNavbar;
+export default TopNavbar;

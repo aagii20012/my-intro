@@ -7,10 +7,10 @@ function MySpect() {
   return (
     <div style={contStyle}>
       <Tabs activeKey={key} onSelect={(k) => setKey(k)} id="uncontrolled-tab-example" className="mb-3 nav-fill">
-        <Tab eventKey="MyAdvan" title="Миний давуу">
+        <Tab eventKey="MyAdvan" title="My Advantage">
           <TabContent value={key} />
         </Tab>
-        <Tab eventKey="MyDisAdvan" title="Миний сул тал">
+        <Tab eventKey="MyDisAdvan" title="My Disadvantage">
           <TabContent value={key} />
         </Tab>
       </Tabs>
@@ -20,7 +20,7 @@ function MySpect() {
 
 const contStyle = {
   position: "relative",
-  height: "100vh",
+  height: "auto",
   padding: "20px",
 };
 

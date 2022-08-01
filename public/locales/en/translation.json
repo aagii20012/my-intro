@@ -1,0 +1,76 @@
+{
+    "greating": "Hello",
+    "meeting": "Nice to meet you",
+    "intro": "My name is <b>Altangerel</b>. , I currently a student at School of Information and Telecommunication Technology with a Bachelor",
+    "advantage_title": "My advantage",
+    "advantage": [{
+            "title": "I am a fast learner",
+            "desc": "I was learning some things fast. I learned React, Node, Laravel, Ruby on rails, etc. Maybe it was slower to learn frameworks like Boostrap, Material ui, etc. Maybe because I don't know much about CSS",
+            "img": "learn.jpg"
+        },
+        {
+            "title": "Improving my weaknesses",
+            "desc": "He strives to develop himself personally by working on his own weaknesses.",
+            "img": "keepTry.png"
+        },
+        {
+            "title": "I am highly focused",
+            "desc": "I can sit for 4-5 hours if I concentrate on what I'm doing",
+            "img": "focus.jpg"
+        },
+        {
+            "title": "I can solve my error",
+            "desc": "I've had a lot of software errors, 60% of which I can solve myself. When I solve a problem, it's easy because I visualize the process and check the meaning",
+            "img": "bug.jpg"
+        },
+        {
+            "title": "Try to inculcate good habits and manners in yourself",
+            "desc": "Sometimes I watch motivational or inspirational videos. My biggest influence is Jordan Peterson. I have heard many interviews of this person. Self-improvement is being done step by step.",
+            "img": "peter.jpg"
+        }
+    ],
+    "disadvantage_title": "My disadvantage",
+    "disadvantage": [{
+        "title": "I am an introvert",
+        "desc": "I used to never communicate with more than a few people, so I didn't like and couldn't talk to a lot of people. Therefore, my communication skills are poor compared to others",
+        "img": "introvert.jpg"
+    }, {
+        "title": "I can't read for a long time",
+        "desc": "I'm not used to reading things for a long time, so my vision doesn't settle, so I read for 1-2 hours and take a break for 30 minutes.",
+        "img": "bookRead.png"
+    }, {
+        "title": "I memorize things by meaning, not by specific names",
+        "desc": "The reason for this weakness is that it is not a problem in general, but usaaly i need to dig into the details",
+        "img": "talk.png"
+    }],
+    "hobby": [{
+        "title": "I like playing video games",
+        "desc": "I love that video games let you explore and do whatever you want. Sometimes you can learn new things and be the person you want to be. Also, and i like the mystery of the story",
+        "img": "games.jpg"
+    }, {
+        "title": "I like to watch anime",
+        "desc": "In anime, I like to be interested in the main character 's emotions, how their personality development is going, and the mystery of the plot",
+        "img": "anime.webp"
+    }, {
+        "title": "I like to read manga",
+        "desc": "Manga comes first than Anime. Therefore, I first became interested in anime with the intention of reading it before it was released. When reading manga, I imagine myself watching the characters' emotions and personality development, and read to discover and guess the plot's secrets.",
+        "img": "manga.jpg"
+    }, {
+        "title": "Надад кино үзэх нь таалагддаг",
+        "desc": "2 years ago I started to like watching movies. It started by watching the recap. Recap provides a lot of information in a short form, so I like the fact that it can save a lot of time. My favorite movies are Good Doctor, Doctor House, Amphibia, Owl House. What I like most about movies is the story, the emotions the characters bring out, and the lessons that can be learned from it.",
+        "img": "movie.jpg"
+    }],
+    "navbar": {
+        "title": "My intro",
+        "link": [{
+            "title": "Home",
+            "link": "Hello"
+        }, {
+            "title": "My (dis)advantage",
+            "link": "MySpec"
+        }, {
+            "title": "My hobby",
+            "link": "MyHobies"
+        }]
+    }
+}

@@ -30,6 +30,9 @@ function swipper({ datas }) {
         900: {
           slidesPerView: 3,
         },
+        1200: {
+          slidesPerView: 4,
+        },
       }}
       navigation={true}
       slidesPerView={3}>

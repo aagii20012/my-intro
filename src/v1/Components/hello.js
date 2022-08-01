@@ -1,8 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Parallax } from "react-scroll-parallax";
+import { useTranslation } from "react-i18next";
 
 function Hello() {
+  const { t } = useTranslation();
   return (
     <Container style={conStyle} fluid="md">
       <Row className="align-items-center h-75">
@@ -10,12 +12,9 @@ function Hello() {
           <div className="justify-content-center">
             <Parallax speed={10}>
               <h2 style={bigWord}>
-                Сайн байна уу.<br></br> Танилцахад таатай байна
+                {t("greating")} <br /> {t("meeting")}
               </h2>
-              <p style={smallWord}>
-                {" "}
-                Намайг <b>Алтангэрэл</b> гэдэг. ШУТИС-МХТС-ийн програм хангамжийн 3-р курсийн оюутан
-              </p>
+              <p style={smallWord} dangerouslySetInnerHTML={{ __html: t("intro") }}></p>
             </Parallax>
           </div>
         </Col>
