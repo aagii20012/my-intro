@@ -14,7 +14,7 @@ i18next
       },
       supportedLngs: ["en", "mn"],
       fallbackLng: "en",
-      debug: true,
+      debug: false,
       // Options for language detector
       detection: {
         order: ["path", "cookie", "htmlTag"],

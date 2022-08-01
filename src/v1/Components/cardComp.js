@@ -12,7 +12,7 @@ function cardComp({ data }) {
         </MDBCardTitle>
         <hr style={{ borderColor: "white" }}></hr>
         <MDBCardText className=" ">
-          <p className="text-center font-weight-bold">{data.desc}</p>
+          <span className="text-center font-weight-bold">{data.desc}</span>
         </MDBCardText>
       </MDBCardOverlay>
     </MDBCard>
